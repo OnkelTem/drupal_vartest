@@ -1,0 +1,12 @@
+name = Vartest feature
+description = Demonstrating a collision between user-defined and programmed stuff
+core = 7.x
+package = Rules
+version = 7.x-1.0
+project = vartest_feature
+dependencies[] = entity
+dependencies[] = rules
+dependencies[] = vartest_rules
+features[features_api][] = api:2
+features[rules_config][] = rules_vartest_component
+project path = sites/default/modules/vartest

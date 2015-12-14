@@ -1,0 +1,5 @@
+name = Vartest rules
+description = Vartest rules
+core = 7.x
+package = Other
+
